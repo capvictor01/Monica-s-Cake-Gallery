@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
+      <!-- SVG Symbols here -->
+    </svg>
+
+    <div class="dropdown position-fixed bottom-0 end-0 mb-3 me-3 bd-mode-toggle">
+      <button class="btn btn-bd-primary py-2 dropdown-toggle d-flex align-items-center" id="bd-theme" type="button" aria-expanded="false" data-bs-toggle="dropdown" aria-label="Toggle theme (dark)">
+        <svg class="bi my-1 theme-icon-active" width="1em" height="1em"><use href="#moon-stars-fill"></use></svg>
+        <span class="visually-hidden" id="bd-theme-text">Toggle theme</span>
+      </button>
+      <ul class="dropdown-menu dropdown-menu-end shadow" aria-labelledby="bd-theme-text">
+        <!-- Theme toggle buttons -->
+      </ul>
+    </div>
+
+<header data-bs-theme="dark">
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="30px" fill="currentColor" class="bi bi-cake2-fill" viewBox="0 0 16 16">
+        <path d="m2.899.804.595-.792.598.79A.747.747 0 0 1 4 1.806v4.886q-.532-.09-1-.201V1.813a.747.747 0 0 1-.1-1.01ZM13 1.806v4.685a15 15 0 0 1-1 .201v-4.88a.747.747 0 0 1-.1-1.007l.595-.792.598.79A.746.746 0 0 1 13 1.806m-3 0a.746.746 0 0 0 .092-1.004l-.598-.79-.595.792A.747.747 0 0 0 9 1.813v5.17q.512-.02 1-.055zm-3 0v5.176q-.512-.018-1-.054V1.813a.747.747 0 0 1-.1-1.01l.595-.79.598.789A.747.747 0 0 1 7 1.806"/>
+        <path d="M4.5 6.988V4.226a23 23 0 0 1 1-.114V7.16c0 .131.101.24.232.25l.231.017q.498.037 1.02.055l.258.01a.25.25 0 0 0 .26-.25V4.003a29 29 0 0 1 1 0V7.24a.25.25 0 0 0 .258.25l.259-.009q.52-.018 1.019-.055l.231-.017a.25.25 0 0 0 .232-.25V4.112q.518.047 1 .114v2.762a.25.25 0 0 0 .292.246l.291-.049q.547-.091 1.033-.208l.192-.046a.25.25 0 0 0 .192-.243V4.621c.672.184 1.251.409 1.677.678.415.261.823.655.823 1.2V13.5c0 .546-.408.94-.823 1.201-.44.278-1.043.51-1.745.696-1.41.376-3.33.603-5.432.603s-4.022-.227-5.432-.603c-.702-.187-1.305-.418-1.745-.696C.408 14.44 0 14.046 0 13.5v-7c0-.546.408-.94.823-1.201.426-.269 1.005-.494 1.677-.678v2.067c0 .116.08.216.192.243l.192.046q.486.116 1.033.208l.292.05a.25.25 0 0 0 .291-.247M1 8.82v1.659a1.935 1.935 0 0 0 2.298.43.935.935 0 0 1 1.08.175l.348.349a2 2 0 0 0 2.615.185l.059-.044a1 1 0 0 1 1.2 0l.06.044a2 2 0 0 0 2.613-.185l.348-.348a.94.94 0 0 1 1.082-.175c.781.39 1.718.208 2.297-.426V8.833l-.68.907a.94.94 0 0 1-1.17.276 1.94 1.94 0 0 0-2.236.363l-.348.348a1 1 0 0 1-1.307.092l-.06-.044a2 2 0 0 0-2.399 0l-.06.044a1 1 0 0 1-1.306-.092l-.35-.35a1.935 1.935 0 0 0-2.233-.362.935.935 0 0 1-1.168-.277z"/>
+      </svg>
+      Monica Cakes</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Welcome</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" aria-disabled="true">Coming Soon</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Cake preference" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+</header>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+<main>
+    <div id="myCarousel" class="carousel slide mb-4 mt-4 pointer-event" data-bs-ride="carousel" max-height="200px;">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class="active" aria-current="true"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" class=""></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item">
+            <img src="./Images/birthday cake2.jpg" class="d-block w-100" alt="Chocolate1" width="100%" height="80%">
+            <div class="container">
+              <div class="carousel-caption text-start">
+                <h1>Cakes for Combined Birthday Parties</h1>
+<p class="opacity-75">Celebrate dual birthdays with our exquisite cakes, crafted to perfection for a memorable shared occasion.</p>
+
+                <p><a class="btn btn-lg btn-primary" href="#">Explore More</a></p>
+                
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item active">
+            <img src="./Images/fruitcake1.jpg" class="d-block w-100" alt="fruitcake1" width="100%" height="80%">
+            <div class="container">
+              <div class="carousel-caption">
+                <h1>Exquisite Fruitcake Sensation</h1>
+<p class="opacity-75">Experience the vibrant flavors and delightful textures of our artisan fruitcake. Bursting with premium fruits and nuts, it's a feast for the senses.</p>
+<p><a class="btn btn-lg btn-primary" href="#">Discover More</a></p>
+
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./Images/invitation cake.jpg" class="d-block w-100" alt="Birthday cake" width="100%" height="80%">
+            <div class="container">
+              <div class="carousel-caption text-end">
+                <h1>Celebrate with Us!</h1>
+<p>Join us for a joyous celebration filled with laughter, cake, and cherished moments.</p>
+
+                <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+  <div class="container marketing">
+    <div class="row">
+      <div class="col-lg-4">
+        <img src="./Images/Baked bread.jpg" class="bd-placeholder-img rounded-circle" width="140" height="140" alt="Baked bread image">
+        <h2 class="fw-normal">Freshly Baked Bread</h2>
+<p>And lastly this, a delightful treat to complete your dining experience. Savor the aroma and taste of freshly baked bread, crafted with care to elevate your meal to perfection.</p>
+        <p><a class="btn btn-secondary" href="#">View details</a></p>
+      </div>
+      <div class="col-lg-4">
+        <img src="./Images/Chocolate3.jpg" class="bd-placeholder-img rounded-circle" width="140" height="140" alt="Chocolate3 image">
+        <h2 class="fw-normal">Decadent Chocolate Cake</h2>
+<p>Continuing with placeholder content, we now transition to the second column.</p>
+
+        <p><a class="btn btn-secondary" href="#">View details</a></p>
+      </div>
+      <div class="col-lg-4">
+        <img src="./Images/Cute cake.jpg" class="bd-placeholder-img rounded-circle" width="140" height="140" alt="Cute cake image">
+        <h2 class="fw-normal">Snowy Summit Cake</h2>
+<p>A dessert fit for royalty, crowned with a delicate layer of icing sugar that glistens like freshly fallen snow. Indulge in each bite of this masterpiece, where sweetness meets elegance in every slice.</p>
+
+
+        <p><a class="btn btn-secondary" href="#">View details</a></p>
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading fw-normal lh-1">First featurette heading. <span class="text-body-secondary">It’ll blow your mind.</span></h2>
+        <p class="lead">Presenting a unique blend of elegance and vibrancy, this cake features pristine white layers on top and bottom, with a striking green center. Imagine the excitement this masterpiece brings to your celebration. Truly a sight to behold and a delight to savor.</p>
+        </p>
+      </div>
+      <div class="col-md-5">
+        <img src="./Images/wedding cake2.jpg" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" alt="wedding cake2">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading fw-normal lh-1">Oh yeah, it’s that good. <span class="text-body-secondary">See for yourself.</span></h2>
+        <p class="lead">Another masterpiece? Absolutely. Behold this exquisite white wedding cake, a timeless symbol of elegance and purity. More than just placeholder content, this cake exemplifies how real-world sophistication and beauty come to life. Your dream, your reality.</p>
+        </p>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <img src="./Images/wedding cake 3.jpg" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" alt="wedding cake 3">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading fw-normal lh-1">And lastly, this one. <span class="text-body-secondary">A showstopper.</span></h2>
+        <p class="lead">And yes, this is the final masterpiece of our wedding cake collection. A stunning black wedding cake, designed to captivate and leave a lasting impression. Again, not merely meant to be admired from afar, but to give you a taste of elegance and sophistication. Your celebration, your moment.</p>
+        </p>
+      </div>
+      <div class="col-md-5">
+        <img src="./Images/wedding black.jpg" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" alt="wedding black cake">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+  </div>
+</main>
+
+<footer class="container">
+  <p class="float-end"><a href="#">Back to top</a></p>
+  <p>© 2024 CapVictor, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+</footer>
+
+</body>
+</html>
